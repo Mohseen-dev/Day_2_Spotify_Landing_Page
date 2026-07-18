@@ -1,0 +1,122 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==========================================
+# 1. OS & System Specific Files (Mac, Windows, Linux)
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.log
+*.local
+
+# ==========================================
+# 2. Frontend Specific Dependencies & Builds
+# ==========================================
+# Package managers
+node_modules/
+/node_modules
+jspm_packages/
+.pnpm-store/
+.yarn-state/
+.yarn/install-state.gz
+
+# Build outputs (Vite, CRA, Next.js, Nuxt)
+dist/
+build/
+.next/
+.nuxt/
+out/
+.cache/
+.parcel-cache/
+
+# Testing framework outputs
+coverage/
+.nyc_output/
+
+# ==========================================
+# 3. Backend Specific (Node.js / Python / Java)
+# ==========================================
+# Python backend files
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Java / Spring Boot build outputs
+target/
+*.class
+*.jar
+*.war
+
+# Logs and runtime database instances
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ==========================================
+# 4. Security & Environment Variables (CRITICAL)
+# ==========================================
+# Kabhi bhi .env files ko GitHub par push na karein
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.json
+config.json
+/config/config.json
+
+# Firebase / Supabase / AWS keys config if generated locally
+.firebase/
+.supabase/
+.aws/
+
+# ==========================================
+# 5. IDEs and Editors Config
+# ==========================================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

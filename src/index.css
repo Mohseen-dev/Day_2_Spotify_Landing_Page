@@ -1,0 +1,30 @@
+@import "tailwindcss";
+body{
+    background-color: black;
+    min-width:320px
+}
+#search_icon {
+  color: #b3b3b3;
+}
+.searchBar:hover {
+  background-color: #3d3b3b;
+  border-color: white;
+  transition: ease-in-out;
+  transition-duration: 200;
+
+  /* hover:bg-[#3d3b3b] hover:border-white transition duration-300 ease-in-out */
+}
+.searchBar:hover * {
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+/* #search_icon:hover{
+    color:white;
+} */
+#search_input::placeholder {
+  color: #b3b3b3;
+}
+#search_input:hover::placeholder {
+  color: white;
+}
