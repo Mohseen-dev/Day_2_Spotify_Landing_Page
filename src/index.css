@@ -1,7 +1,7 @@
 @import "tailwindcss";
-body{
-    background-color: black;
-    min-width:320px
+body {
+  background-color: black;
+  min-width: 320px;
 }
 #search_icon {
   color: #b3b3b3;
@@ -28,3 +28,37 @@ body{
 #search_input:hover::placeholder {
   color: white;
 }
+
+/* For HeroSection Container Child */
+.menus:hover * {
+  color: white;
+  transition: all 0.2s;
+}
+.componentHeading {
+  font-family:
+    SpotifyMixUITitle,
+    CircularSp-Arab,
+    CircularSp-Hebr,
+    CircularSp-Cyrl,
+    CircularSp-Grek,
+    CircularSp-Deva,
+    Helvetica Neue,
+    helvetica,
+    arial,
+    Hiragino Sans,
+    Hiragino Kaku Gothic ProN,
+    Meiryo,
+    MS Gothic;
+}
+.cardContainer::-webkit-scrollbar {
+  display: none;
+}
+.rightHeroContainer::-webkit-scrollbar {
+  display: none;
+}
+
+/* .menuIcons{
+  color:blue;
+  
+} */
+/* SpotifyMixUITitle,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva, Helvetica Neue, helvetica, arial, Hiragino Sans, Hiragino Kaku Gothic ProN, Meiryo, MS Gothic */
