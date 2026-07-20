@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import LeftMenu from "./LeftMenu";
 import RightHero from "./RightHero";
 
@@ -11,6 +12,7 @@ const HeroSection = () => {
         <RightHero />
         <RightHero />
         <RightHero />
+        <Footer/>
       </div>
     </div>
   );
