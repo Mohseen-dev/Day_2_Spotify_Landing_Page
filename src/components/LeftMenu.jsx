@@ -8,9 +8,9 @@ import { TfiWorld } from "react-icons/tfi";
 
 const LeftMenu = () => {
   return (
-    <div className='leftMenu min-w-min sm:w-[15%] bg-[#3314e3] flex flex-col justify-between rounded-md p-6 className="menuIcons"  '>
-      <div className="menuWrapper bg-red-500 h-[60%] flex flex-col justify-between shrink-0">
-        <div className="menus w-min bg-green-600 text-base font-medium flex justify-center sm:justify-start gap-6 items-center text-[#b3b3b3]">
+    <div className='leftMenu min-w-min sm:w-[15%] flex flex-col justify-between rounded-md p-6 className="menuIcons" bg-[#121212] '>
+      <div className="menuWrapper h-full sm:h-[60%] flex flex-col justify-between shrink-0">
+        <div className="menus w-min  text-base font-medium flex justify-center sm:justify-start gap-6 items-center text-[#b3b3b3]">
           <MdHomeFilled className="menuIcons" color="#b3b3b3" size={32} />
           <h3 className="hidden sm:flex">Home</h3>
         </div>
@@ -39,7 +39,7 @@ const LeftMenu = () => {
           <h3 className="hidden sm:flex">Library</h3>
         </div>
       </div>
-      <div className="hidden w-[95%] bg-yellow-400 sm:flex flex-col gap-4 shrink-0">
+      <div className="hidden w-[95%] sm:flex flex-col gap-4 shrink-0">
         <div className="flex flex-wrap gap-2  shrink-0 text-xs font-semibold text-gray-400">
           <p >Legal</p>
           <p>Privacy Policies</p>

@@ -1,6 +1,12 @@
 import React from "react";
 
-const Card = ({ cardImage="https://i.scdn.co/image/ab67616d00001e02ba655d8d20b5aadb16e463aa", name="Dopamine", subName="Wing", imgStyle="rounded-md", CardDetailStyle }) => {
+const Card = ({
+  cardImage = "https://i.scdn.co/image/ab67616d00001e02ba655d8d20b5aadb16e463aa",
+  name = "Dopamine",
+  subName = "Wing",
+  imgStyle = "rounded-md",
+  CardDetailStyle,
+}) => {
   return (
     <div className="card shrink-0 w-48 flex flex-col p-3 rounded-md mb-1 hover:bg-[#1f1f1f] transition ease-[cubic-bezier(.3,0,0,1)]  duration-400">
       <div className="cardInsideWrapper">
