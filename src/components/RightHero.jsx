@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./Card";
 
 const RightHero = ({ Songs , heading,imgStyle,nameStyle,subNameStyle}) => {
-  console.log(Songs);
+  // console.log(Songs);
   return (
     <div className="rightHero  rounded-md ">
       <div className="componentConainer bg-tekjal-600 p-6 ">
